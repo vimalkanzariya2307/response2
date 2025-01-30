@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body
+{
+    font:14ox georgia serif;
+    background-color: aqua;
+}
+h3
+{
+    margin: 0 0 8px 0;
+}
+p
+{
+    margin: 0 0 20px 0;
+}
+#fluid-warp
+{
+    margin: 60px auto;
+    width: 70%;
+    padding: 20px;
+    overflow: hidden;
+    background-color: chartreuse;
+}
+#sidebar
+{
+    width: 35%;
+    float: left;
+
+}
+#sidebar ul
+{
+    list-style-type: none;
+}
+
+#sidebar ul li a
+{
+    color: rgb(0, 4, 255);
+    text-decoration: none;
+    padding: 3px 0;
+    display: block;
+
+}
+#main-content
+{
+    width: 65%;
+    float: right;
+}
