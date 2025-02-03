@@ -1,50 +1,58 @@
-*{
+* {
     margin: 0;
     padding: 0;
 
 }
-body
-{
-    font:14ox georgia serif;
+
+body {
+    font: 14ox georgia serif;
     background-color: aqua;
 }
-h3
-{
+
+h3 {
     margin: 0 0 8px 0;
 }
-p
-{
+
+p {
     margin: 0 0 20px 0;
 }
-#fluid-warp
-{
+
+#fluid-warp {
     margin: 60px auto;
     width: 70%;
     padding: 20px;
     overflow: hidden;
     background-color: chartreuse;
 }
-#sidebar
-{
+
+#sidebar {
     width: 35%;
     float: left;
 
 }
-#sidebar ul
-{
+
+#sidebar ul {
     list-style-type: none;
 }
 
-#sidebar ul li a
-{
+#sidebar ul li a {
     color: rgb(0, 4, 255);
     text-decoration: none;
     padding: 3px 0;
     display: block;
 
 }
-#main-content
-{
+
+#main-content {
     width: 65%;
     float: right;
+}
+
+@media all and (max-width:100px) {
+    #sidebar ul li a{
+        content: "("after(data-email)")";
+        font-size: 11px;
+        font-style: italic;
+        color: #666;
+    }
 }
